@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.aimeesrabbithotel.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pennylounge"
+        android:scaleType="centerInside"
+        android:id="@+id/id_pennyloungeView"
+        />
+
+    <TextView
+        android:text="Penny's Rabbit Hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:id="@+id/id_PennysRabbitHotel"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_PennysRabbitHotel"
+        android:text="Five Star Rabbit Sitting and Day Care"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/id_rabbit_sitting_day_care"
+        android:paddingTop="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fivestars"
+        android:layout_below="@id/id_rabbit_sitting_day_care"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/id_five_stars"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_five_stars"
+        android:text="1234 N Main St. Tucson, Az 85719"
+        android:textSize="15sp"
+        android:paddingTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/id_address"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_address"
+        android:text="(520)123-4567"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/id_phone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_phone"
+        android:text="www.pennysrabbithotel.com"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
